@@ -1,0 +1,51 @@
+{
+  "name": "myBotTele",
+  "version": "1.0.0",
+  "description": "Bot telegram",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "plugins": "plugins"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "telebot",
+    "telegram"
+  ],
+  "author": "ktdprjct",
+  "license": "ISC",
+  "dependencies": {
+    "@bochilteam/scraper": "^4.0.22-alpha.0",
+    "frieren-scraper": "github:xct007/frieren-scraper",
+    "axios": "^0.26.0",
+    "cfonts": "^2.10.0",
+    "chalk": "^4.1.0",
+    "chatgpt-scraper": "*",
+    "cheerio": "*",
+    "crypto": "*",
+    "discord.js": "^14.12.1",
+    "express": "^4.18.1",
+    "fluent-ffmpeg": "*",
+    "form-data": "^4.0.0",
+    "fs": "*",
+    "jsdom": "^20.0.0",
+    "lodash": "*",
+    "lowdb": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "node-id3": "*",
+    "node-telegram-bot-api": "^0.61.0",
+    "path": "*",
+    "pino": "*",
+    "pino-pretty": "^10.0.0",
+    "readline": "*",
+    "ssl-root-cas": "^1.3.1",
+    "syntax-error": "*",
+    "youtube-yts": "*",
+    "youtubedl-core": "*"
+  }
+}
